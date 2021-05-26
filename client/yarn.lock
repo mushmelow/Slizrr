@@ -1541,13 +1541,15 @@ braces@^2.3.1:
     to-regex "^3.0.1"
 
 browserslist@^4.8.2, browserslist@^4.8.3:
-  version "4.8.3"
-  resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/browserslist/-/browserslist-4.8.3.tgz#65802fcd77177c878e015f0e3189f2c4f627ba44"
-  integrity sha1-ZYAvzXcXfIeOAV8OMYnyxPYnukQ=
+  version "4.16.6"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
+  integrity sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ==
   dependencies:
-    caniuse-lite "^1.0.30001017"
-    electron-to-chromium "^1.3.322"
-    node-releases "^1.1.44"
+    caniuse-lite "^1.0.30001219"
+    colorette "^1.2.2"
+    electron-to-chromium "^1.3.723"
+    escalade "^3.1.1"
+    node-releases "^1.1.71"
 
 bser@2.1.1:
   version "2.1.1"
@@ -1638,10 +1640,10 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
 
-caniuse-lite@^1.0.30001017:
-  version "1.0.30001021"
-  resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/caniuse-lite/-/caniuse-lite-1.0.30001021.tgz#e75ed1ef6dbadd580ac7e7720bb16f07b083f254"
-  integrity sha1-517R72263VgKx+dyC7FvB7CD8lQ=
+caniuse-lite@^1.0.30001219:
+  version "1.0.30001230"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001230.tgz#8135c57459854b2240b57a4a6786044bdc5a9f71"
+  integrity sha512-5yBd5nWCBS+jWKTcHOzXwo5xzcj4ePE/yjtkZyUV1BTUmrBaA9MRGC+e7mxnqXSA90CmCA8L3eKLaSUkt099IQ==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -1749,10 +1751,10 @@ color-support@^1.1.3:
   resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
   integrity sha1-k4NDeaHMmgxh+C9S8NBDIiUb1aI=
 
-colorette@^1.0.7:
-  version "1.1.0"
-  resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/colorette/-/colorette-1.1.0.tgz#1f943e5a357fac10b4e0f5aaef3b14cdc1af6ec7"
-  integrity sha1-H5Q+WjV/rBC04PWq7zsUzcGvbsc=
+colorette@^1.0.7, colorette@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
+  integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
 
 command-exists@^1.2.8:
   version "1.2.8"
@@ -2013,10 +2015,10 @@ ee-first@1.1.1:
   resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.3.322:
-  version "1.3.336"
-  resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/electron-to-chromium/-/electron-to-chromium-1.3.336.tgz#f0e7a3e78f1c9a0385b6693a4a4b7453f0ae6aaf"
-  integrity sha1-8Oej548cmgOFtmk6Skt0U/Cuaq8=
+electron-to-chromium@^1.3.723:
+  version "1.3.738"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.738.tgz#aec24b091c82acbfabbdcce08076a703941d17ca"
+  integrity sha512-vCMf4gDOpEylPSLPLSwAEsz+R3ShP02Y3cAKMZvTqule3XcPp7tgc/0ESI7IS6ZeyBlGClE50N53fIOkcIVnpw==
 
 encodeurl@~1.0.2:
   version "1.0.2"
@@ -2056,6 +2058,11 @@ errorhandler@^1.5.0:
   dependencies:
     accepts "~1.3.7"
     escape-html "~1.0.3"
+
+escalade@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
+  integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -2714,7 +2721,7 @@ inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -3122,6 +3129,11 @@ levenary@^1.1.0:
   integrity sha1-/BRv518y3Eg6Cixkrvcg9gLNYhA=
   dependencies:
     leven "^3.1.0"
+
+link@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/link/-/link-0.1.5.tgz#7fc7aa5bd3f6ac5a19c5255a23f4207d6852e92e"
+  integrity sha1-f8eqW9P2rFoZxSVaI/QgfWhS6S4=
 
 load-json-file@^2.0.0:
   version "2.0.0"
@@ -3676,12 +3688,10 @@ node-notifier@^5.2.1:
     shellwords "^0.1.1"
     which "^1.3.0"
 
-node-releases@^1.1.44:
-  version "1.1.45"
-  resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/node-releases/-/node-releases-1.1.45.tgz#4cf7e9175d71b1317f15ffd68ce63bce1d53e9f2"
-  integrity sha1-TPfpF11xsTF/Ff/WjOY7zh1T6fI=
-  dependencies:
-    semver "^6.3.0"
+node-releases@^1.1.71:
+  version "1.1.72"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.72.tgz#14802ab6b1039a79a0c7d662b610a5bbd76eacbe"
+  integrity sha512-LLUo+PpH3dU6XizX3iVoubUNheF/owjXCZZ5yACDxNnPtgFuludV1ZL3ayK1kVep42Rmm0+R9/Y60NQbZ2bifw==
 
 noop-fn@^1.0.0:
   version "1.0.0"
@@ -4146,6 +4156,19 @@ react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.12.0"
   resolved "https://artifactory.workjam.com/artifactory/api/npm/npm/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha1-LMD+D7p0LZf9UnxCoTvsTusGJBw=
+
+react-native-app-auth@^5.0.0:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/react-native-app-auth/-/react-native-app-auth-5.1.3.tgz#840ed3a126419be360d54dc9c3f1f3cede2f79ff"
+  integrity sha512-tIFyGf8pZutstmS5B6BY5MfPOArnOt8mLx2TrvrUQJAQbe9+XvY4MZjHq9ZYYYBQwVRkkv3SmesGOMkpYygIUg==
+  dependencies:
+    invariant "2.2.4"
+    react-native-base64 "0.0.2"
+
+react-native-base64@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-base64/-/react-native-base64-0.0.2.tgz#c28463c2c6779ac3ec5fdd12979ebc8c5f9b410a"
+  integrity sha512-Fu/J1a2y0X22EJDWqJR2oEa1fpP4gTFjYxk8ElJdt1Yak3HOXmFJ7EohLVHU2DaQkgmKfw8qb7u/48gpzveRbg==
 
 react-native-safe-area-view@^0.14.1:
   version "0.14.8"
